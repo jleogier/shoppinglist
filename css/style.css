@@ -1,0 +1,38 @@
+body {
+	font-family: cursive;
+}
+
+h1 {
+	font-size: 5em;
+	color: red;
+	text-align: center;
+	padding-top: 0.5em;
+	border: dotted;
+}
+
+div ul {
+	text-align: center;
+	color: blue;
+	font-size: 2.5em;
+	border: dotted;
+}
+
+ul:first-child {
+	padding-top: 5%;
+}
+
+ul {
+	padding: 10px;
+}
+
+.enterItem {
+	text-align: center;
+	color: green;
+	font-size: 3.5em;
+	padding-top: 7.5%;
+	border: dotted;	
+}
+
+ul li:last-child {
+	text-decoration: line-through;
+	}
