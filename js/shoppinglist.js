@@ -10,15 +10,6 @@ $(document).ready(function() {
 		$("#list").append("<li>" + item + "</li>");
 		console.log(item);		
 	});
-	
-
-
-
-
-
-//	$('ul').on('click', 'li', function(clicked) {
-//		$("li").remove();
-//	});
 
 
 	$('#list').on('dblclick', 'li', function(e) {	
@@ -28,9 +19,5 @@ $(document).ready(function() {
 	$('#list').on('click', 'li', function(e){
 		$(e.target).addClass('completed');
 	});
-
-
-
-
-
+	
 });
